@@ -50,22 +50,22 @@ rng(this_seed)
     % Yf - test group membership
     % N - reliablity parameter
     % n_iter - number of iterations
-        % n_iter = 100000;
+         n_iter = 100000;
     % bi - size of burn in
-        % bi = 20000;
+         bi = 20000;
     % a, b - hyperparameters on sigma0j
-        % a = 3;
-        % b = 0.1;
+         a = 3;
+         b = 0.1;
     % ak, bk - hyperparameters on sigmaj1 and sigmaj2
-        % ak = 3;
-        % bk = 0.1;
+         ak = 3;
+         bk = 0.1;
     % alpha_0 and alpha_1 - parameters for probit prior
-        % alpha_0 = -2.75;
-        % alpha_1 = 3;
+         alpha_0 = -2.75;
+         alpha_1 = 3;
     % c - hyperparameter on sigma1 and sigma2
-        % c = 0.5;
+         c = 0.5;
     % feature_thresh - threshold of ppi value for inclusion as variable
-        % feature_thresh = 0.5;
+         feature_thresh = 0.5;
     
 %%%% Output Variables
 
